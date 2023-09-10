@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Max Boudreau">
+  <meta name="email" content="boud0178@algonquinlive.com">
+  <title>Mugs</title>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="max_style.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;1,300;1,400&family=Unbounded:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+<div class="grid">
+  <div class="navbar">
+    <ul class="navigation">
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      <li><a href="mikes_page.html">CAFE</a></li>
+      <li><a href="max_page.html">COFFEE MUGS</a></li>
+      <li><a href="max_cart.html">CART</a></li>
+
+    </ul>
+  </div>
+
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="max_images/abi.jpg" alt="abi">
+        <div class="displayNone">
+          <p>Abi Mug</p>
+          <p>Abi mug designed by Abby.</p>
+          <p>$15</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="max_images/bee.png" alt="bee">
+        <div class="displayNone">
+          <p>Bee Mug</p>
+          <p>Bee mug designed by Juan.</p>
+          <p>$15</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="max_images/floral.png" alt="floral">
+        <div class="displayNone">
+          <p>Floral Mug</p>
+          <p>Floral mug designed by Fiona</p>
+          <p>$15</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="max_images/flower.png" alt="spring">
+        <div class="displayNone">
+          <p>Spring Mug</p>
+          <p>Spring mug designed by Jenna.</p>
+          <p>$20</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="max_images/havana.png" alt="havana">
+        <div class="displayNone">
+          <p>Havana Style Mug</p>
+          <p>Havana mug designed by Troy.</p>
+          <p>$20</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="max_images/letter.png" alt="letter">
+        <div class="displayNone">
+          <p>Letter Mug</p>
+          <p>Letter mug designed by Max.</p>
+          <p>$15</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="max_images/pumpkin.png" alt="pumpkin">
+        <div class="displayNone">
+          <p>Pumpkin Mug</p>
+          <p>Pumpkin mug designed by Beth.</p>
+          <p>$20</p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+    
+    <div class="background"></div>
+
+
+    <div id="imgBox">
+      <img class="imgBoxImg" src="/max_images/Pink_skater.png">
+    </div>
+
+    <div id="paintingDetails" class="text">
+      <h2>Abi Mug</h2>
+      <h3>Abi mug designed by Abby.</h3>
+      <h1 class="price">$15</h1>
+      <button onclick="addToCart ()">Add to Cart</button>
+    </div>
+
+    <div class="contactInfo">
+      <p class="about">Each mug has been personally designed by the Art Cafe employees. Consider supporting your local cafe by purchasing a unique mug!
+      </p>
+      <h2 class="about">GET IN TOUCH</h2>
+      <a href="mailto:ArtCafe@gmail.com" class="about">ArtCafe@gmail.com</a>
+    </div>
+
+  <div class="ordersText">
+    <h1 id="formTitle">Leave a review!</h1>
+    <p class="formText">Use this box to send us a review of our mugs, your opinion would be greatly appreciated.
+    </p>
+  </div>
+    
+
+    <div class="card">
+      <form action="/action_page.php">
+
+        <input type="text" id="name" name="name" placeholder="Your name..">
+        <input type="text" id="mug design" name="mug design" placeholder="Mug design">
+        <input type="text" id="message" name="message" placeholder="Message..">
+        
+        <input type="submit" value="Submit">
+    </div>
+
+
+  <div class="footbar"></div>
+  </div>
+  </div>
+
+  
+
+  <!-- Swiper JS -->
+  <script src="swiper-bundle.min.js"></script>
+
+  <script src="max_script.js"></script>
+
+  <script src="max_cart.js"></script>
+</body>
+
+</html>
+
+
